@@ -218,7 +218,7 @@ function App() {
         loop
         muted
         playsInline
-        src="Spacebeam.mp4"
+        src="/wordofday/Spacebeam.mp4"
       />
       
       {/* Overlay to ensure text readability */}
@@ -390,7 +390,7 @@ function App() {
           <div className="fixed inset-0 z-50 bg-black">
             <video
               className="w-full h-full object-cover"
-              src="jumpscare%20video.mp4"
+              src="/wordofday/jumpscare video.mp4"
               autoPlay
               playsInline
               muted={false}
